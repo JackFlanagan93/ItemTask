@@ -4,6 +4,7 @@ const Schema = mongoose.Schema;
 //defining schema
 var itemSchema = new Schema({
     username: String,
+    email: String,
     content: String
 
 });
