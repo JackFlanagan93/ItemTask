@@ -3,9 +3,9 @@ const Schema = mongoose.Schema;
 
 //defining schema
 var itemSchema = new Schema({
-        username: String,
+    username: String,
     content: String
-    
+
 });
 
 //defining model
